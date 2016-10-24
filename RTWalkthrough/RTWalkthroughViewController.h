@@ -15,6 +15,8 @@
 @property (nonatomic, weak) id<RTWalkthroughViewControllerDelegate> delegate;
 @property (nonatomic, readonly) NSInteger currentPage;
 - (void)addViewController:(UIViewController *)vc;
+- (IBAction)nextPage:(id)sender;
+- (IBAction)prevPage:(id)sender;
 
 @end
 
